@@ -1,0 +1,29 @@
+.artist{
+    background-image: url(../../images/bg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        min-height: 90vh;
+        padding-top: 100px;
+}
+.image {
+    max-width: 265px;
+    max-height: 265px;
+}
+
+.white {
+    color: white;
+}
+
+.icons {
+    border-radius: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: 1.2s;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}

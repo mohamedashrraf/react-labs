@@ -1,0 +1,71 @@
+
+.newsLetter {
+    background-color: #411b58;
+    z-index: 0;
+}
+
+.invite {
+    background-color: #2c0047;
+        z-index: 0;
+}
+
+
+.white {
+    color: white;
+}
+
+.yellow {
+    color: #f7ea66;
+}
+
+.inputs {
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+    border: white 1px solid;
+    color: white;
+    padding-left: 10px;
+}
+
+.inputs:focus {
+    color: #f7ea66;
+    outline: #f7ea66 1px solid;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+.subBtn {
+    border-radius: 20px;
+    padding: 5px 40px;
+    transition: 1.2s all;
+    margin-left: 300px;
+}
+
+
+
+.icons {
+    border-radius: 50%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: 1.2s;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.select {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    border: white 1px solid;
+    padding: 2.5px 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.select:focus {
+    color: #f7ea66;
+}
